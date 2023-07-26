@@ -1,0 +1,12 @@
+resources:
+  - wf--4c487214-clone-build-push-pipeline.yaml
+  - wf--4c487214-git-event-triggerbinding.yaml
+  - wf--4c487214-git-repo-eventlistener.yaml
+  - wf--4c487214-image-registry-secret.yaml
+  - wf--4c487214-clone-push-serviceaccount.yaml
+  - wf--4c487214-git-repo-github-com-secret.yaml
+  - wf--4c487214-ingress.yaml
+  - wf--4c487214-run-clone-build-push-triggertemplate.yaml
+  - wf--4c487214-tekton-triggers-admin-role.yaml
+  - wf--4c487214-tekton-triggers-admin-rolebinding.yaml
+  - wf--4c487214-tekton-triggers-admin-serviceaccount.yaml
